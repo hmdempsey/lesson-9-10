@@ -1,0 +1,66 @@
+header {
+  background-image: url(images/portfolio-website-background-center.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 600px;
+  
+}
+
+h1 {
+  color: #c6999e;
+}
+
+body {
+  background-color: #2a3950
+}
+
+h2 {
+  color: #c6999e;
+}
+
+p {
+  color: #cbbab2;
+}
+
+.graphic {
+  background-color: rgba(118, 156, 210, 10%);
+  border: 4px solid rgba(118, 156, 210, 5%);
+  margin: 0%;
+  padding: 5px;
+}
+.art {
+  background-color: rgba(118, 156, 210, 10%);
+  border: 4px solid rgba(118, 156, 210, 5%);
+  margin: 0%;
+  padding: 5px;
+}
+.photos {
+  background-color: rgba(118, 156, 210, 10%);
+  border: 4px solid rgba(118, 156, 210, 5%);
+  margin: 0%;
+  padding: 5px;
+}
+
+.main {
+  background-color:  rgba(118, 156, 210, 3%);
+}
+
+.footer {
+  background-color:  rgba(118, 156, 210, 3%);
+  text-align: center;
+}
+
+/*.column {
+  border: 3px solid #fe7682;
+  padding: 10px;
+}
+
+h1 {
+  text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+  .column {
+    width: 100%;
+  }
+}

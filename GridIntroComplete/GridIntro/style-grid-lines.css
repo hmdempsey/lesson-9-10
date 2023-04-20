@@ -1,0 +1,30 @@
+.site {
+    display: grid;
+    grid-template-columns: [main-start] 2fr [sidebar-start] 1fr [sidebar-half] 1fr [main-end]; /* Lines can be named and referenced if we choose */
+    grid-template-rows: [header-start] auto [header-end] 1fr 3fr;
+}
+
+.masthead {
+    grid-column: sidebar-start/main-end;
+    grid-row: 2/3;
+}
+
+.page-title {
+    grid-column: main; /* Fills entire main section (start and end not required)*/
+    grid-row: header;
+}
+
+.main-content {
+    grid-column: main-start/sidebar-start;
+    grid-row: header-end/-1; /* Negative numbers can be used to count from the end of the grid.  This is useful for very large grids or if we don't know how large the grid is. */
+}
+
+.sidebar {
+    grid-column: sidebar-start/sidebar-half;
+    grid-row: 3;
+}
+
+.footer-content {
+    grid-column: sidebar-half;
+    grid-row: 3;
+}
